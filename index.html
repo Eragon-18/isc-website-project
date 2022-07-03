@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website title</title>
+    <script src="carousel.js"></script>
+    <link rel="stylesheet" href="carousel.css" />
+    <script src="logo.js"></script>
+    <link rel="stylesheet" href="logo.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="background" class="background">
+      <div id="header" class="header">
+        <div class="headerText">
+          <h2 id="headerText">Sample Title</h2>
+        </div>
+
+        <div class="headerIcon">
+          <img
+            width="100%"
+            height="100%"
+            class="icon"
+            id="icon"
+            src="images/ipllogo.png"
+            alt="IPL Logo"
+          />
+        </div>
+      </div>
+
+      <div class="instructions" id="instructions">
+        <marquee class="scrollingText" behaviour="scroll" direction="left">
+          See how well you know your favourite team by clicking on it's
+          logo!</marquee
+        >
+      </div>
+
+      <div class="logoDisplay" id="logoDisplay">
+        <div class="logoCarrier">
+          <img id="logoImage1" class="logoImage" onclick="redirect(1)" />
+          <text id="carouselText1" class="carouselText"></text>
+        </div>
+        <div class="logoCarrier">
+          <img id="logoImage2" class="logoImage" onclick="redirect(2)" />
+          <text id="carouselText2" class="carouselText"></text>
+        </div>
+        <div class="logoCarrier">
+          <img id="logoImage3" class="logoImage" onclick="redirect(3)" />
+          <text id="carouselText3" class="carouselText"></text>
+        </div>
+      </div>
+
+      <div class="newsContainer" id="newsContainer">
+        <div class="news" id="news">
+          <center><h2>News header</h2></center>
+          <center><text class="newsText">News content</text></center>
+        </div>
+        <div class="news" id="news">
+          <center><h2>News header</h2></center>
+          <center><text class="newsText">News content</text></center>
+        </div>
+        <div class="news" id="news">
+          <center><h2>News header</h2></center>
+          <center><text class="newsText">News content</text></center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
