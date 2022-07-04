@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Lucknow Super Giants</title>
+  <script src="lsg.js"></script>
+  <link rel="icon" href="../images/lsg.png " type="image/icon type" />
+  <link rel="stylesheet" href="teams.css" />
+  <link rel="stylesheet" href="lsg.css" />
+</head>
+<body>
+  <div id="header" class="header">
+    <p class = "teamName">Lucknow Super Giants</p>
+    <img src="../images/lsg3d.png"/ class = "logo">
+    <p class = "teamName">Lucknow Super Giants</p>
+  </div>
+  <p id="questionContainer" class="questionContainer">
+    The question will appear here
+  </p>
+  <div class="quizContainer" id="quizContainer">
+    <div class="opContainer1">
+      <div class="opContainer">
+        <input type="radio" name="answer" id="op1" class="op" />
+        <label id="op1text" class="optext" for="op1">1-1</label><br />
+      </div>
+
+      <div class="opContainer">
+        <input type="radio" name="answer" id="op2" class="op" />
+        <label id="op2text" class="optext" for="op2">1-2</label><br />
+      </div>
+    </div>
+
+    <div class="opContainer2">
+      <div class="opContainer">
+        <input type="radio" name="answer" id="op3" class="op" />
+        <label id="op3text" class="optext" for="op3">1-3</label><br />
+      </div>
+
+      <div class="opContainer">
+        <input type="radio" name="answer" id="op4" class="op" />
+        <label id="op4text" class="optext" for="op4">1-4</label><br />
+      </div>
+    </div>
+    <input type="submit" onclick="check()" id="submit" class="submit" />
+
+    <p id="score"></p>
+  </div>
+</body>

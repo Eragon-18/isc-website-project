@@ -59,5 +59,5 @@ scoreDisplayer = () => {
   document.getElementById("op3").remove();
   document.getElementById("op4").remove();
   document.getElementById("submit").remove();
-  document.getElementById("score").innerHTML = score;
+  document.getElementById("score").innerHTML = "Your score is " + score;
 };

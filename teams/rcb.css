@@ -1,0 +1,82 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  align-items: center;
+  background-color: #d9b204;
+}
+
+.op {
+  height: 30px;
+  width: 30px;
+}
+
+.opContainer1 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 5%;
+  justify-content: space-between;
+  justify-content: flex-start;
+  border-style: solid;
+  width: 50%;
+  align-items: center;
+}
+
+.opContainer2 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 5%;
+  justify-content: space-between;
+  justify-content: flex-start;
+  border-style: solid;
+  width: 50%;
+  align-items: center;
+}
+
+.opContainer {
+  margin-left: 10%;
+}
+
+.submit {
+  background-color: #594e1d;
+  font-family: "Lucida Grande";
+  margin-left: 10%;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.optext {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.questionContainer {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #594e1d;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 80%;
+}
+
+.teamName{
+  color: white;
+  font-size: xx-large;
+}
